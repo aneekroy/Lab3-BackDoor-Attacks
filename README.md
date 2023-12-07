@@ -35,4 +35,6 @@ This repository contains the files for the third laboratory exercise in the Mach
 
 ---
 
-Feel free to modify this template to better fit the specifics of your project and to provide any additional instructions or information that might be relevant.
+Steps to run the model:
+
+Either run locally on Jupyter Notebook or Run the code on Google Colab.

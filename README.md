@@ -42,7 +42,8 @@ Graphical plot of the results:
 ![ML for Cyber Security Lab 3](https://github.com/aneekroy/Lab3-BackDoor-Attacks/assets/10370194/b335fe08-d41b-4977-888b-ab5707d3beda)
 
 Discussions on the efffectiveness of the Pruning on the Attack Success Rates (ASR):
-"""The ineffectiveness of pruning as a defense mechanism against certain types of attacks, especially in neural networks, can be attributed to several factors:
+
+The ineffectiveness of pruning as a defense mechanism against certain types of attacks, especially in neural networks, can be attributed to several factors:
 
 1. **Inherent Robustness of Neural Networks**: Neural networks, particularly deep networks, are known for their redundancy and robustness. When certain channels or neurons are pruned, the network can often compensate for the loss, maintaining its function almost as before. This resilience, while beneficial for generalization and dealing with noisy inputs, can also mean that pruning does not significantly impact the network's ability to process poisoned inputs or adversarial examples.
 
@@ -59,5 +60,5 @@ Discussions on the efffectiveness of the Pruning on the Attack Success Rates (AS
 7. **Complexity of Neural Networks**: Modern neural networks often have millions of parameters, and the relationship between these parameters and specific model behaviors can be highly non-linear and complex. This complexity makes it difficult to predict how changes like pruning will affect the model's behavior in all scenarios, including under attack.
 
 In conclusion, while pruning can be an effective tool for reducing model size and computational complexity, its effectiveness as a defense mechanism against attacks on neural networks is limited and can be highly dependent on the nature of the attack and the specifics of the network architecture. More comprehensive approaches might be required for robust defense against sophisticated attacks.
-"""
+
 
